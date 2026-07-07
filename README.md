@@ -255,10 +255,10 @@ export const login = (password: string) => {
 #### 第一步：熟悉项目结构
 ```bash
 # 1. 克隆项目
-git clone https://github.com/xcfstudio/linkui.git
+git clone https://github.com/xcfstudio/linkui-zxic.git
 
 # 2. 安装依赖
-cd LinkUI && pnpm install
+cd LinkUI-ZXIC && pnpm install
 
 # 3. 启动开发服务器
 pnpm run dev
@@ -516,7 +516,7 @@ const linxios = new Linxios({
 
 - 📧 邮箱：hello@xcfstudio.com
 - 🌐 官网：https://linkui.xcfstudio.com
-- 📱 社区：https://github.com/xcfstudio/linkui
+- 📱 社区：https://github.com/xcfstudio/linkui-zxic
 
 ---
 
