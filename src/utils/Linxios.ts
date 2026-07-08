@@ -119,11 +119,8 @@ class Linxios {
 
       // 构建完整URL（包含query参数）
       let fullUrl: string
-      if (interceptedConfig.baseURL) {
-        fullUrl = new URL(url, interceptedConfig.baseURL).href
-      } else {
-        fullUrl = url
-      }
+      const effectiveBaseURL = interceptedConfig.baseURL || window.location.origin
+      fullUrl = new URL(url, effectiveBaseURL).href
 
       // 如果有queryParams，添加到URL
       if (interceptedConfig.queryParams) {
