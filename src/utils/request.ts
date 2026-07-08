@@ -5,7 +5,7 @@
 
 import { Linxios } from './Linxios'
 const linxios = new Linxios({
-  baseURL: 'http://192.168.100.1',
+  // baseURL: 'http://192.168.100.1',
 })
 
 // 请求拦截器

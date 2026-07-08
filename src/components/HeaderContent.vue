@@ -2,7 +2,7 @@
 <template>
   <div class="header-content">
     <div class="logo">
-      <img src="/pic/logo.svg" alt="logo" />
+      <img src="/pic/logo.png" alt="logo" />
     </div>
     <!--menu登陆后才能显示 -->
     <div class="nav-bar">
